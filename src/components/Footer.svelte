@@ -1,3 +1,6 @@
+<script>
+    import Carbonbadge from "svelte-carbonbadge";
+</script>
 <!-- FOOTER -->
 <footer class="bg-gray-800 sm:mt-10">
     <div class="flex flex-wrap max-w-6xl m-auto text-gray-800 justify-left">
@@ -61,8 +64,7 @@
             </a>
 
             <!-- Website Carbon footprint -->
-            <div id="wcb" class="carbonbadge"></div>
-
+            <Carbonbadge />
         </div>
 
         <!-- Copyright -->
@@ -74,5 +76,3 @@
         </div>
     </div>
 </footer>
-
-<script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer></script>
