@@ -60,25 +60,9 @@
                 Twitter
             </a>
 
+            <!-- Website Carbon footprint -->
+            <div id="wcb" class="carbonbadge"></div>
 
-            <!-- NYHETSBREV -->
-            <form method="post"
-                action="https://kontorportalen.us4.list-manage.com/subscribe/post?u=106d85df43b77255aa0d8619d&amp;id=bb36e1b3a0"
-                id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" novalidate>
-                <div id="mc_embed_signup_scroll">
-                    <div class="mb-6 mt-6 text-xs font-medium text-gray-400 uppercase">Abonner på vårt nyhetsbrev</div>
-                    <input type="email" value="" name="EMAIL" class="input" id="mce-EMAIL"
-                        placeholder="E-postadresse" required>
-                    <div class="absolute" style="left: -5000px;" aria-hidden="true">
-                        <input type="text" name="b_106d85df43b77255aa0d8619d_bb36e1b3a0" tabindex="-1" value="">
-                    </div>
-                    <div class="clear mt-2">
-                        <input type="submit" id="mc-embedded-subscribe"
-                            class="flex items-center justify-center w-20 px-3 py-2 text-white bg-indigo-600 rounded-md font-small hover:bg-indigo-700"
-                            value="Abonner">
-                    </div>
-                </div>
-            </form>
         </div>
 
         <!-- Copyright -->
@@ -90,3 +74,5 @@
         </div>
     </div>
 </footer>
+
+<script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer></script>
