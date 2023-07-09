@@ -1,0 +1,92 @@
+<!-- FOOTER -->
+<footer class="bg-gray-800 sm:mt-10">
+    <div class="flex flex-wrap max-w-6xl m-auto text-gray-800 justify-left">
+
+        <!-- Kolonne 1 -->
+        <div class="w-1/2 p-5 sm:w-4/12">
+            <!-- Tittel -->
+            <div class="mb-6 text-xs font-medium text-gray-400 uppercase">Om oss</div>
+
+            <!-- Adresse -->
+            <a href="index.html"
+                class="block my-3 text-sm font-medium text-gray-300 duration-700 hover:text-gray-100">
+                Kontorportalen
+            </a>
+            <address class="block my-3 text-sm font-medium text-gray-300">Lektor Musums gt 17, 7650 Verdal</address>
+            <span class="block my-3 text-sm font-medium text-gray-300">Org.nr 926 587 129</span>
+            <a href="#kontakt"
+                class="block my-3 text-sm font-medium text-gray-300 duration-700 hover:text-gray-100">
+                Kontakt oss
+            </a>
+
+            <div id="wcb" class="carbonbadge wcb-d"></div>
+            
+        </div>
+
+        <!-- Kolonne 2 -->
+        <div class="w-1/2 p-5 sm:w-4/12">
+            <!-- Tittel -->
+            <div class="mb-6 text-xs font-medium text-gray-400 uppercase">Navigasjon</div>
+
+            <!-- Meny -->
+            <a href="#websider"
+                class="block my-3 text-sm font-medium text-gray-300 duration-700 hover:text-gray-100">
+                Websider
+            </a>
+            <a href="#elaring"
+                class="block my-3 text-sm font-medium text-gray-300 duration-700 hover:text-gray-100">
+                E-l&aelig;ring
+            </a>
+            <a href="#events" class="block my-3 text-sm font-medium text-gray-300 duration-700 hover:text-gray-100">
+                Billettsystem
+            </a>
+            <a href="#pris" class="block my-3 text-sm font-medium text-gray-300 duration-700 hover:text-gray-100">
+                Pris
+            </a>
+        </div>
+
+        <!-- Kolonne 3 -->
+        <div class="w-1/2 p-5 sm:w-4/12">
+            <!-- Tittel -->
+            <div class="mb-6 text-xs font-medium text-gray-400 uppercase">Sosiale media</div>
+
+            <!-- Lenker -->
+            <a href="https://www.facebook.com/kontorportalen" target="_blank"
+                class="block my-3 text-sm font-medium text-gray-300 duration-700 hover:text-gray-100">
+                Facebook
+            </a>
+            <a href="https://www.twitter.com/kontorportalen"
+                class="block my-3 text-sm font-medium text-gray-300 duration-700 hover:text-gray-100">
+                Twitter
+            </a>
+
+
+            <!-- NYHETSBREV -->
+            <form method="post"
+                action="https://kontorportalen.us4.list-manage.com/subscribe/post?u=106d85df43b77255aa0d8619d&amp;id=bb36e1b3a0"
+                id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" novalidate>
+                <div id="mc_embed_signup_scroll">
+                    <div class="mb-6 mt-6 text-xs font-medium text-gray-400 uppercase">Abonner på vårt nyhetsbrev</div>
+                    <input type="email" value="" name="EMAIL" class="input" id="mce-EMAIL"
+                        placeholder="E-postadresse" required>
+                    <div class="absolute" style="left: -5000px;" aria-hidden="true">
+                        <input type="text" name="b_106d85df43b77255aa0d8619d_bb36e1b3a0" tabindex="-1" value="">
+                    </div>
+                    <div class="clear mt-2">
+                        <input type="submit" id="mc-embedded-subscribe"
+                            class="flex items-center justify-center w-20 px-3 py-2 text-white bg-indigo-600 rounded-md font-small hover:bg-indigo-700"
+                            value="Abonner">
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <!-- Copyright -->
+        <div class="pt-2">
+            <div
+                class="flex flex-col max-w-6xl px-3 pt-5 pb-5 m-auto text-sm text-gray-400 border-t border-gray-500 md:flex-row">
+                <span class="mt-2">&copy; Kontorportalen 2023. All Rights Reserved.</span>
+            </div>
+        </div>
+    </div>
+</footer>
