@@ -15,6 +15,8 @@
         "href" : "/"},
         {"title" : "Websider",
         "href" : "/websider"},
+        {"title" : "E-læring",
+        "href" : "/elaring"},
     ];
 
 </script>
@@ -48,7 +50,7 @@
             <!-- Navigation links -->
             <ul role="menubar" 
                 aria-label="Velg side" 
-                class="invisible absolute top-0 left-0 z-[-1] ml-auto h-screen w-full justify-center overflow-hidden overflow-y-auto overscroll-contain bg-white/90 px-8 pb-12 pt-28 font-medium opacity-0 transition-[opacity,visibility] duration-300 lg:visible lg:relative lg:top-0 lg:z-0 lg:flex lg:h-full lg:w-auto lg:items-stretch lg:overflow-visible lg:bg-white/0 lg:px-0 lg:py-0 lg:pt-0 lg:opacity-100">
+                class="{showMenu ? 'flex' : 'invisible'} absolute top-0 left-0 z-[-1] ml-auto h-screen w-full justify-center overflow-hidden overflow-y-auto overscroll-contain bg-white/90 px-8 pb-12 pt-28 font-medium {showMenu ? 'opacity-100' : 'opacity-0'} transition-[opacity,visibility] duration-300 lg:visible lg:relative lg:top-0 lg:z-0 lg:flex lg:h-full lg:w-auto lg:items-stretch lg:overflow-visible lg:bg-white/0 lg:px-0 lg:py-0 lg:pt-0 lg:opacity-100">
                 
                 {#each navitems as navitem}
                     <li role="none" class="flex items-stretch">
@@ -65,15 +67,6 @@
 
             </ul>
 
-            <!-- Mobile Menu open: "block", Menu closed: "hidden" -->
-            <div
-            class="flex-col mt-8 space-y-4 md:flex md:space-y-0 md:flex-row md:items-center md:space-x-10 md:mt-0 
-            {showMenu ? 'flex' : 'hidden'}">
-                <a class="text-gray-800 hover:text-blue-400" href="/">Hjem</a>
-                <a class="text-gray-800 hover:text-blue-400" href="/websider">Websider</a>
-                <a class="text-gray-800 hover:text-blue-400" href="/elaring">E-læring</a>
-                <a class="text-gray-800 hover:text-blue-400" href="/billettservice">Billettservice</a>
-            </div>
         </nav>
     </div>
 </header>

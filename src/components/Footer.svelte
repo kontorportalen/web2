@@ -1,12 +1,12 @@
 <script>
-    import Carbonbadge from "svelte-carbonbadge";
+    import CarbonBadge from 'svelte-carbonbadge';
 </script>
 <!-- FOOTER -->
 <footer class="bg-gray-800 sm:mt-10">
-    <div class="flex flex-wrap max-w-6xl m-auto text-gray-800 justify-left">
+    <div class="grid grid-cols-3 max-w-6xl m-auto text-gray-800">
 
         <!-- Kolonne 1 -->
-        <div class="w-1/2 p-5 sm:w-4/12">
+        <div class="p-5">
             <!-- Tittel -->
             <div class="mb-6 text-xs font-medium text-gray-400 uppercase">Om oss</div>
 
@@ -27,20 +27,20 @@
         </div>
 
         <!-- Kolonne 2 -->
-        <div class="w-1/2 p-5 sm:w-4/12">
+        <div class="p-5">
             <!-- Tittel -->
             <div class="mb-6 text-xs font-medium text-gray-400 uppercase">Navigasjon</div>
 
             <!-- Meny -->
-            <a href="#websider"
+            <a href="/websider"
                 class="block my-3 text-sm font-medium text-gray-300 duration-700 hover:text-gray-100">
                 Websider
             </a>
-            <a href="#elaring"
+            <a href="/elaring"
                 class="block my-3 text-sm font-medium text-gray-300 duration-700 hover:text-gray-100">
                 E-l&aelig;ring
             </a>
-            <a href="#events" class="block my-3 text-sm font-medium text-gray-300 duration-700 hover:text-gray-100">
+            <a href="/events" class="block my-3 text-sm font-medium text-gray-300 duration-700 hover:text-gray-100">
                 Billettsystem
             </a>
             <a href="#pris" class="block my-3 text-sm font-medium text-gray-300 duration-700 hover:text-gray-100">
@@ -49,7 +49,7 @@
         </div>
 
         <!-- Kolonne 3 -->
-        <div class="w-1/2 p-5 sm:w-4/12">
+        <div class="p-5">
             <!-- Tittel -->
             <div class="mb-6 text-xs font-medium text-gray-400 uppercase">Sosiale media</div>
 
@@ -58,13 +58,13 @@
                 class="block my-3 text-sm font-medium text-gray-300 duration-700 hover:text-gray-100">
                 Facebook
             </a>
-            <a href="https://www.twitter.com/kontorportalen"
+            <a href="https://www.twitter.com/kontorportalen" target="_blank"
                 class="block my-3 text-sm font-medium text-gray-300 duration-700 hover:text-gray-100">
                 Twitter
             </a>
 
             <!-- Website Carbon footprint -->
-            <Carbonbadge />
+            <CarbonBadge />
         </div>
 
         <!-- Copyright -->

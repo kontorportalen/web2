@@ -3,8 +3,8 @@
 
 </script>
 
-
 <Hero />
+
 <!-- SAMARBEIDSPARTNER -->
 <section class="py-20 z-5 bg-blue-100" id="samarbeidspartner" aria-label="Samarbeidspartner">
     <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
@@ -121,7 +121,9 @@
             <!-- NAFWeb -->
             <div class="flex flex-col items-center justify-center w-full max-w-sm mx-auto">
                 <div class="w-full h-64 bg-gray-300 bg-center bg-cover rounded-lg shadow-md">
-                    <figure><img src="images/nafweb.png" alt="Norsk anestesiologisk forening" /></figure>
+                    <picture>
+                        <img src="images/nafweb.png" alt="Norsk anestesiologisk forening" />
+                    </picture>
                 </div>
             
                 <div class="w-56 -mt-10 overflow-hidden bg-white rounded-lg shadow-lg md:w-64 dark:bg-gray-800">
@@ -138,7 +140,9 @@
             <!-- Medisinsk Simulatorsenter -->
             <div class="flex flex-col items-center justify-center w-full max-w-sm mx-auto">
                 <div class="w-full h-64 bg-gray-300 bg-center bg-cover rounded-lg shadow-md">
-                    <figure><img src="images/simulatorsenteret.png" alt="Medisinsk SimulatorSenter" /></figure>
+                    <picture>
+                      <img src="images/simulatorsenteret.png" alt="Medisinsk SimulatorSenter" />
+                    </picture>
                 </div>
 
                 <div class="w-56 -mt-10 overflow-hidden bg-white rounded-lg shadow-lg md:w-64 dark:bg-gray-800">
@@ -155,7 +159,9 @@
             <!-- MedSimNorge -->
             <div class="flex flex-col items-center justify-center w-full max-w-sm mx-auto">
                 <div class="w-full h-64 bg-gray-300 bg-center bg-cover rounded-lg shadow-md">
-                    <figure><img src="images/medsimnorge.png" alt="MedSimNorge" /></figure>
+                    <picture>
+                      <img src="images/medsimnorge.png" alt="MedSimNorge" />
+                    </picture>
                 </div>
 
                 <div class="w-56 -mt-10 overflow-hidden bg-white rounded-lg shadow-lg md:w-64 dark:bg-gray-800">
@@ -172,7 +178,9 @@
             <!-- Spelet -->
             <div class="flex flex-col items-center justify-center w-full max-w-sm mx-auto">
                 <div class="w-full h-64 bg-gray-300 bg-center bg-cover rounded-lg shadow-md">
-                    <figure><img src="images/spelet.png" alt="Spelet om Heilag Olav" /></figure>
+                    <picture>
+                        <img src="images/spelet.png" alt="Spelet om Heilag Olav" />
+                    </picture>
                 </div>
 
                 <div class="w-56 -mt-10 overflow-hidden bg-white rounded-lg shadow-lg md:w-64 dark:bg-gray-800">
@@ -184,7 +192,6 @@
                     </div>
                 </div>
             </div>
-
         </div>
 
         <p class="max-w-3xl my-4 text-xl text-gray-500 lg:mx-auto">Hvis du ønsker å samarbeide med Kontorportalen om å bygge din neste webside, ikke nøl med å <a class="text-indigo-500 hover:text-indigo-700 focus:text-indigo-700" href="/kontakt">ta kontakt</a>!</p>
@@ -236,39 +243,40 @@
         <!-- Card -->
         <div class="overflow-hidden bg-white rounded shadow-md text-slate-500 shadow-slate-300">
             <!-- Image -->
-            <figure><img src="images/hotel.jpg" alt="Illustrasjonsbilde" class="aspect-video w-full max-h-48" /></figure>
-                <!-- Body-->
-                <div class="p-6">
-                    <header class="mb-4">
-                        <div><h3 class="text-xl font-bold text-slate-700">Webhotell</h3></div>
-                    </header>
+            <picture>
+                <img src="images/hotel.jpg" alt="Illustrasjonsbilde" class="aspect-video w-full max-h-48" />
+            </picture>
+            <!-- Body-->
+            <div class="p-6">
+                <header class="mb-4">
+                    <h3 class="text-xl font-bold text-slate-700">Webhotell</h3>
+                </header>
         
-                    <p>Vi s&oslash;rger for lagringsplass, e-postadresser og domenenavn for deg. 
-                    NB! Ved prissamenlikning med andre, s&aring; har vi domenenavn inkludert i prisen!
-                    Webhotell med 5 Gb lagringsplass, 20 epostadresser og domenenavn
-                    (.no, .com, .net og .org) koster <em class="font-semibold">kun kr 100,- pr mnd</em> (eks mva).
-                    I tillegg kommer en engangs oppstartkostnad p&aring; kr 1000,- (eks mva)</p>
-                </div>
+                <p>Vi s&oslash;rger for lagringsplass, e-postadresser og domenenavn for deg. 
+                NB! Ved prissamenlikning med andre, s&aring; har vi domenenavn inkludert i prisen!</p>
+                <p>Webhotell med opptil 200Gb lagringsplass, opptil ubegrenset antall epostadresser og domenenavn
+                (.no, .com, .net og .org) koster fra <em class="font-semibold">kun kr 100,- pr mnd</em> (eks mva).
+                I tillegg kommer en engangs oppstartkostnad p&aring; kr 1000,- (eks mva).</p>
+            </div>
         </div>
 
         <!-- Card -->
         <div class="overflow-hidden bg-white rounded shadow-md text-slate-500 shadow-slate-300">
             <!-- Image -->
-            <figure><img src="images/elearning.jpg" alt="Illustrasjonsbilde" class="aspect-video w-full max-h-48" /></figure>
-                <!-- Body-->
-                <div class="p-6">
-                    <header class="mb-4">
-                        <div>
-                            <h3 class="text-xl font-bold text-slate-700">E-læring</h3>
-                        </div>
-                    </header>
-                    <p>Prisen for elæringssystem er todelt:</p>
-                    <ul class="list-disc">
-                        <li>Lagringsplass koster <em class="font-semibold">kun kr 100,- pr mnd</em> (eks mva).</li>
-                        <li>Oppsett av l&aelig;ringssystemet ligger vanligvis mellom kr 5000,- og kr 10000,- (eks mva).</li>
-                    </ul>
-                    <p>Dersom du velger lagringsplass hos oss, får du <strong class="font-semibold">15% rabatt</strong> p&aring; oppsett av e-l&aelig;ringssystem.</p>
-                </div>
+            <picture>
+                <img src="images/elearning.jpg" alt="Illustrasjonsbilde" class="aspect-video w-full max-h-48" />
+            </picture>
+            <!-- Body-->
+            <div class="p-6">
+                <header class="mb-4">
+                    <h3 class="text-xl font-bold text-slate-700">E-læring</h3>
+                </header>
+                <p>Prisen for oppsett av e-læringssystem er todelt, avhengig om du også trenger lagringsplass:</p>
+                <ul class="list-disc">
+                    <li>Webhotell/lagring koster <em class="font-semibold">kun kr 100,- pr mnd</em> (eks mva).</li>
+                    <li>Oppsett av l&aelig;ringssystemet ligger vanligvis mellom kr 5000,- og kr 10000,- (eks mva).</li>
+                </ul>
+            </div>
         </div>
     </div>
 </section>
