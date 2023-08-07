@@ -216,8 +216,8 @@
                 grad. Hvis du tror at dette kan være noe for dette, er det bare å ta kontakt!
             </p>
             <a href="/elaring"
-                class="flex items-center justify-center px-8 py-3 mx-auto mt-12 text-base font-medium text-white bg-indigo-600 border border-transparent rounded-md w-72 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10">
-                Les om e-l&aelig;ring
+            class="inline-flex items-center justify-center h-10 gap-2 px-5 font-medium tracking-wide text-white transition duration-300 rounded focus-visible:outline-none whitespace-nowrap bg-blue-500 hover:bg-blue-600 focus:bg-blue-700 disabled:cursor-not-allowed disabled:border-blue-300 disabled:bg-blue-300 disabled:shadow-none">
+            Les om e-l&aelig;ring
             </a>
         </div>
     </div>

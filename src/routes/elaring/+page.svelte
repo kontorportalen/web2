@@ -34,8 +34,8 @@
 
             <ul class="max-w-4xl my-4 text-lg md:text-xl text-gray-500 lg:mx-auto">
                 <li class="decoration-black">Kunnskapsportal</li>
-                <li>Brukermanualer</li>
-                <li>Sertifiseringssenter</li>
+                <li class="decoration-black">Brukermanualer</li>
+                <li class="decoration-black">Sertifiseringssenter</li>
             </ul>
 
             <p class="max-w-4xl my-4 text-lg md:text-xl text-gray-500 lg:mx-auto">
@@ -44,4 +44,3 @@
         </div>
     </div>
 </section>
-
