@@ -17,6 +17,8 @@
         "href" : "/websider"},
         {"title" : "E-læring",
         "href" : "/elaring"},
+        {"title" : "Kontakt oss",
+        "href" : "/kontakt"},
     ];
 
 </script>

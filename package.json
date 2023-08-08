@@ -38,6 +38,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@tailwindcss/forms": "^0.5.4",
 		"node": "^20.3.1",
 		"pnpm": "^8.6.12",
 		"svelte-carbonbadge": "^0.0.1",

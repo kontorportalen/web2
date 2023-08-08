@@ -40,11 +40,18 @@
                 class="block my-3 text-sm font-medium text-gray-300 duration-700 hover:text-gray-100">
                 E-l&aelig;ring
             </a>
-            <a href="/events" class="block my-3 text-sm font-medium text-gray-300 duration-700 hover:text-gray-100">
+            <!-- BILLETTSYSTEM TO COME
+                <a href="/events" class="block my-3 text-sm font-medium text-gray-300 duration-700 hover:text-gray-100">
                 Billettsystem
             </a>
-            <a href="#pris" class="block my-3 text-sm font-medium text-gray-300 duration-700 hover:text-gray-100">
+            -->
+            <a href="/#pris" 
+                class="block my-3 text-sm font-medium text-gray-300 duration-700 hover:text-gray-100">
                 Pris
+            </a>
+            <a href="/kontakt"
+                class="block my-3 text-sm font-medium text-gray-300 duration-700 hover:text-gray-100">
+                Kontakt oss
             </a>
         </div>
 
@@ -60,7 +67,7 @@
             </a>
             <a href="https://www.twitter.com/kontorportalen" target="_blank"
                 class="block my-3 text-sm font-medium text-gray-300 duration-700 hover:text-gray-100">
-                Twitter
+                Twitter / X
             </a>
 
             <!-- Website Carbon footprint -->
