@@ -3,6 +3,11 @@
 
 </script>
 
+<svelte:head>
+    <title>Kontorportalen</title> 
+</svelte:head>
+
+
 <Hero />
 
 <!-- SAMARBEIDSPARTNER -->
@@ -13,7 +18,7 @@
             <p class="mt-2 text-3xl font-extrabold leading-8 tracking-tight text-gray-900 sm:text-4xl">
                 Valg av samarbeidspartner
             </p>
-            <p class="max-w-4xl my-4 text-lg md:text-xl text-gray-500 lg:mx-auto">
+            <p class="max-w-4xl my-4 text-lg md:text-xl text-gray-600 lg:mx-auto">
                 Det er mye &aring; ta hensyn til n&aring;r man skal velge samarbeidspartner for &aring;
                 utf&oslash;re oppdrag p&aring; nett.<br />
                 Her er noe av det <strong class="font-bold">vi</strong> kan tilby deg!
@@ -33,7 +38,7 @@
                         </div>
                         <p class="ml-4 text-lg font-medium leading-6 text-gray-900">Personlig oppf&oslash;lging</p>
                     </dt>
-                    <dd class="mt-2 ml-16 text-base text-gray-500">
+                    <dd class="mt-2 ml-16 text-base text-gray-600">
                         Kontorportalen er et lite, men engasjert selskap - og vi bryr oss om deg som kunde!
                         Alle v&aring;re kunder f&aring;r personlig oppf&oslash;lging fra sin egen kontaktperson gjennom prosessen.
                     </dd>
@@ -51,7 +56,7 @@
                         </div>
                         <p class="ml-4 text-lg font-medium leading-6 text-gray-900">Rimelige priser</p>
                     </dt>
-                    <dd class="mt-2 ml-16 text-base text-gray-500">
+                    <dd class="mt-2 ml-16 text-base text-gray-600">
                         Vi gj&oslash;r alt vi kan for &aring; redusere egne - og dermed dine - kostnader forbundet med nett.
                         M&aring;let er at du som kunde skal f&aring; gode tjenester til en overkommelig pris.
                     </dd>
@@ -69,7 +74,7 @@
                         </div>
                         <p class="ml-4 text-lg font-medium leading-6 text-gray-900">Lokal, regional og nasjonal</p>
                     </dt>
-                    <dd class="mt-2 ml-16 text-base text-gray-500">
+                    <dd class="mt-2 ml-16 text-base text-gray-600">
                         Vi holder fysisk til i Tr&oslash;ndelag, men vi samarbeider med kunder fra hele landet.
                         Internettverdenen &aring;pner for ulike kommunikasjonsmuligheter, og vi utnytter mange av disse.
                     </dd>
@@ -87,7 +92,7 @@
                         </div>
                         <p class="ml-4 text-lg font-medium leading-6 text-gray-900">Fokus p&aring; det vi kan</p>
                     </dt>
-                    <dd class="mt-2 ml-16 text-base text-gray-500">
+                    <dd class="mt-2 ml-16 text-base text-gray-600">
                         Vi kan ikke hjelpe deg med alt i vårt eget firma, men vi vet samtidig hva vil bruke ekstern hjelp til.
                         Vi velger å fokusere på vår styrke, som er bygging av gode websider,
                         og s&aring; bruker vi tjenester fra andre der vi selv ikke har kompetansen. Summen blir den beste opplevelsen for deg!
@@ -106,7 +111,7 @@
             <p class="mt-2 text-3xl font-extrabold leading-8 tracking-tight text-gray-900 sm:text-4xl">
                 Bygging av websider
             </p>
-            <p class="max-w-3xl my-4 text-xl text-gray-500 lg:mx-auto">
+            <p class="max-w-3xl my-4 text-xl text-gray-600 lg:mx-auto">
                 Det vi gj&oslash;r mest av i hverdagen, er bygging og vedlikehold av websider. Vi bygger sider for
                 enkeltpersoner, for lag og foreninger og for små og mellomstore bedrifter.
                 Noen av de sidene vi har bygd eller v&aelig;rt konsulent til, ser du nedenfor.
@@ -194,7 +199,7 @@
             </div>
         </div>
 
-        <p class="max-w-3xl my-4 text-xl text-gray-500 lg:mx-auto">Hvis du ønsker å samarbeide med Kontorportalen om å bygge din neste webside, ikke nøl med å <a class="text-indigo-500 hover:text-indigo-700 focus:text-indigo-700" href="/kontakt">ta kontakt</a>!</p>
+        <p class="max-w-3xl my-4 text-xl text-gray-600 lg:mx-auto">Hvis du ønsker å samarbeide med Kontorportalen om å bygge din neste webside, ikke nøl med å <a class="text-indigo-500 hover:text-indigo-700 focus:text-indigo-700" href="/kontakt">ta kontakt</a>!</p>
     </div>
 </section>
 
@@ -206,12 +211,12 @@
             <p class="mt-2 text-3xl font-extrabold leading-8 tracking-tight text-gray-900 sm:text-4xl">
                 E-l&aelig;ring for alle
             </p>
-            <p class="max-w-3xl my-4 text-xl text-gray-500 lg:mx-auto">
+            <p class="max-w-3xl my-4 text-xl text-gray-600 lg:mx-auto">
                 Mange organisasjoner og bedrifter trenger en form for e-l&aelig;ringssystem og/eller
                 sertifiseringssystem. Kontorportalen kan tilby dette, enten som l&oslash;sning bygget av oss og som inkluderer webhotell
                 eller p&aring; deres egne servere.
             </p>
-            <p class="max-w-3xl my-4 text-xl text-gray-500 lg:mx-auto">E-læringssystemer er altså ikke begrenset til utdanningsinstitusjoner eller til nettsteder som driver 
+            <p class="max-w-3xl my-4 text-xl text-gray-600 lg:mx-auto">E-læringssystemer er altså ikke begrenset til utdanningsinstitusjoner eller til nettsteder som driver 
                 med e-læring som eneste aktivitet. Mange bedrifter, organisasjoner og lag bruker e-læring i større og mindre
                 grad. Hvis du tror at dette kan være noe for dette, er det bare å ta kontakt!
             </p>
@@ -231,7 +236,7 @@
             <p class="mt-2 text-3xl font-extrabold leading-8 tracking-tight text-gray-900 sm:text-4xl">
                 V&aring;re priser
             </p>
-            <p class="max-w-3xl my-4 text-xl text-gray-500 lg:mx-auto">
+            <p class="max-w-3xl my-4 text-xl text-gray-600 lg:mx-auto">
                 V&aring;re priser avhenger i stor grad av hva du &oslash;nsker &aring; gj&oslash;re, og de er derfor avtalt individuelt for hvert prosjekt.
                 For enkle oppsett har vi imidlertid noen standard priser, de finner du nedenfor.
             </p>

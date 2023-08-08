@@ -1,3 +1,6 @@
+<svelte:head>
+    <title>Kontakt oss</title> 
+</svelte:head>
 
 <section class="py-40 z-5 bg-white bg-[url('/images/teacher-students.jpg')] bg-cover bg-opacity-30" id="kontakt" aria-label="Heading">
     <h1 class="mx-auto max-w-7xl sm:px-6 lg:px-8 text-4xl font-extrabold mb-8 text-white">Kontakt oss</h1>
@@ -8,7 +11,7 @@
     <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         
         <div>
-            <form action="https://formspree.io/f/xaygewkk" method="POST" enctype="multipart/form-data" class="max-w-4xl my-4 text-lg md:text-xl text-gray-500 lg:mx-auto">
+            <form action="https://formspree.io/f/xaygewkk" method="POST" enctype="multipart/form-data" class="max-w-4xl my-4 text-lg md:text-xl text-gray-600 lg:mx-auto">
                 <div class="space-y-12">
                     <div class="border-b border-gray-900/10 pb-12">
                         <h2 class="text-base font-semibold leading-7 text-gray-900">Kontaktskjema</h2>

@@ -17,10 +17,6 @@
             </a>
             <address class="block my-3 text-sm font-medium text-gray-300">Lektor Musums gt 17, 7650 Verdal</address>
             <span class="block my-3 text-sm font-medium text-gray-300">Org.nr 926 587 129</span>
-            <a href="#kontakt"
-                class="block my-3 text-sm font-medium text-gray-300 duration-700 hover:text-gray-100">
-                Kontakt oss
-            </a>
 
             <div id="wcb" class="carbonbadge wcb-d"></div>
             
