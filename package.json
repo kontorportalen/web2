@@ -38,7 +38,10 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@boxfish-studio/sveltekit-cookie-manager": "^1.0.3",
+		"@klaxit/cookie-consent": "^0.3.4",
 		"@tailwindcss/forms": "^0.5.4",
+		"klaro": "^0.7.18",
 		"node": "^20.3.1",
 		"pnpm": "^8.6.12",
 		"svelte-carbonbadge": "^0.0.1",

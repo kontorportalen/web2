@@ -15,7 +15,9 @@
                 <div class="space-y-12">
                     <div class="border-b border-gray-900/10 pb-12">
                         <h2 class="text-base font-semibold leading-7 text-gray-900">Kontaktskjema</h2>
-                        <p class="mt-1 text-sm leading-6 text-gray-600">Informasjonen i skjemaet blir sendt til vårt supportteam, som vil ta kontakt med deg ved behov.</p>
+                        <p class="max-w-4xl my-4 text-lg md:text-xl text-gray-600 lg:mx-auto">
+                        Informasjonen i skjemaet blir sendt til vårt supportteam, som vil ta kontakt med deg ved behov.
+                        </p>
             
                         <div class="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
                             <div class="sm:col-span-4">
@@ -48,7 +50,10 @@
                                 <div class="mt-2">
                                     <textarea id="message" name="message" rows="3" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 px-1"></textarea>
                                 </div>
-                                <p class="mt-3 text-sm leading-6 text-gray-600">Skriv litt mer omkring din henvendelse. Du kan også inkludere en fil (f.eks. designforslag, profildokument osv) nedenfor.</p>
+                                <p class="max-w-4xl my-4 text-lg md:text-xl text-gray-600 lg:mx-auto">
+                                    Skriv litt mer omkring din henvendelse.<br />
+                                    Du kan også inkludere en fil (f.eks. designforslag, profildokument osv) nedenfor.
+                                </p>
                             </div>
             
                             <div class="col-span-full">

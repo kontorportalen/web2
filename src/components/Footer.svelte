@@ -11,7 +11,7 @@
             <div class="mb-6 text-xs font-medium text-gray-400 uppercase">Om oss</div>
 
             <!-- Adresse -->
-            <a href="index.html"
+            <a href="/"
                 class="block my-3 text-sm font-medium text-gray-300 duration-700 hover:text-gray-100">
                 Kontorportalen
             </a>
@@ -19,6 +19,11 @@
             <span class="block my-3 text-sm font-medium text-gray-300">Org.nr 926 587 129</span>
 
             <div id="wcb" class="carbonbadge wcb-d"></div>
+
+            <a href="/personvern"
+                class="block my-3 text-sm font-medium text-gray-300 duration-700 hover:text-gray-100">
+                Personvernerklæring
+            </a>
             
         </div>
 
