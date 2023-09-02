@@ -7,4 +7,12 @@
     .active {
         @apply flex items-center gap-2 py-4 transition-colors duration-300 text-blue-500 hover:text-blue-700 focus:bg-blue-50 focus:outline-none focus-visible:outline-none lg:px-8
     }
+
+    .screen-reader-only {
+        position: absolute;
+        width: 1px;
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+        white-space: nowrap;
+    }
 }

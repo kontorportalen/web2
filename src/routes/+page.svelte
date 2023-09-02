@@ -1,6 +1,5 @@
 <script>
 	import Hero from "../components/Hero.svelte";
-
 </script>
 
 <svelte:head>
@@ -14,13 +13,14 @@
 <section class="py-20 z-5 bg-blue-100" id="samarbeidspartner" aria-label="Samarbeidspartner">
     <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div class="text-center">
-            <h2 class="text-base font-semibold tracking-wide text-indigo-600 uppercase">Hvorfor Kontorportalen?</h2>
+            <h2 class="text-base font-semibold tracking-wide text-indigo-600 uppercase">
+                Hvorfor Kontorportalen?
+            </h2>
             <p class="mt-2 text-3xl font-extrabold leading-8 tracking-tight text-gray-900 sm:text-4xl">
                 Valg av samarbeidspartner
             </p>
             <p class="max-w-4xl my-4 text-lg md:text-xl text-gray-600 lg:mx-auto">
-                Det er mye &aring; ta hensyn til n&aring;r man skal velge samarbeidspartner for &aring;
-                utf&oslash;re oppdrag p&aring; nett.<br />
+                Det er mye &aring; ta hensyn til n&aring;r man skal velge samarbeidspartner for &aring; utf&oslash;re oppdrag p&aring; nett.<br />
                 Her er noe av det <strong class="font-bold">vi</strong> kan tilby deg!
             </p>
         </div>
@@ -40,7 +40,7 @@
                     </dt>
                     <dd class="mt-2 ml-16 text-base text-gray-600">
                         Kontorportalen er et lite, men engasjert selskap - og vi bryr oss om deg som kunde!
-                        Alle v&aring;re kunder f&aring;r personlig oppf&oslash;lging fra sin egen kontaktperson gjennom prosessen.
+                        Alle v&aring;re kunder f&aring;r personlig oppf&oslash;lging fra deres egen kontaktperson gjennom prosessen.
                     </dd>
                 </div>
 
@@ -109,15 +109,15 @@
         <div class="md:text-center">
             <h2 class="text-base font-semibold tracking-wide text-indigo-600 uppercase">Trenger du websider?</h2>
             <p class="mt-2 text-3xl font-extrabold leading-8 tracking-tight text-gray-900 sm:text-4xl">
-                Bygging av websider
+                Bygging og lagring av websider
             </p>
             <p class="max-w-3xl my-4 text-xl text-gray-600 lg:mx-auto">
-                Det vi gj&oslash;r mest av i hverdagen, er bygging og vedlikehold av websider. Vi bygger sider for
-                enkeltpersoner, for lag og foreninger og for små og mellomstore bedrifter.
+                Det vi gj&oslash;r mest av i hverdagen, er bygging, lagring og vedlikehold av websider.
+                Vi bygger sider for enkeltpersoner, for lag og foreninger og for små og mellomstore bedrifter.
                 Noen av de sidene vi har bygd eller v&aelig;rt konsulent til, ser du nedenfor.
             </p>
 
-            <a href="/websider" class="inline-flex items-center justify-center h-10 gap-2 px-5 font-medium tracking-wide text-white transition duration-300 rounded focus-visible:outline-none whitespace-nowrap bg-blue-500 hover:bg-blue-600 focus:bg-blue-700 disabled:cursor-not-allowed disabled:border-blue-300 disabled:bg-blue-300 disabled:shadow-none">Les mer om prosessen</a>
+            <a href="/websider" class="inline-flex items-center justify-center h-10 gap-2 px-5 font-medium tracking-wide text-white transition duration-300 rounded focus-visible:outline-none whitespace-nowrap bg-blue-500 hover:bg-blue-600 focus:bg-blue-700 disabled:cursor-not-allowed disabled:border-blue-300 disabled:bg-blue-300 disabled:shadow-none">Les mer om byggeprosessen</a>
         </div>
 
         <!-- PORTFOLIO -->
@@ -243,9 +243,9 @@
         </div>
     </div>
 
-    <div class="px-4 mx-auto max-w-6xl sm:px-6 lg:px-8 grid grid-cols-2 gap-4">
+    <div class="px-4 mx-auto max-w-6xl sm:px-6 lg:px-8 grid grid-cols-1 sm:grid-cols-2 gap-4">
 
-        <!-- Card -->
+        <!-- Prising Card -->
         <div class="overflow-hidden bg-white rounded shadow-md text-slate-500 shadow-slate-300">
             <!-- Image -->
             <picture>
@@ -257,15 +257,15 @@
                     <h3 class="text-xl font-bold text-slate-700">Webhotell</h3>
                 </header>
         
-                <p>Vi s&oslash;rger for lagringsplass, e-postadresser og domenenavn for deg. 
-                NB! Ved prissamenlikning med andre, s&aring; har vi domenenavn inkludert i prisen!</p>
+                <p>Vi s&oslash;rger for lagringsplass, e-postadresse(r) og domenenavn for deg. 
+                NB! Ved prissamenlikning med andre, s&aring; er v&aring;r pris inkludert domenenavn-kostnader i prisen!</p>
                 <p>Webhotell med opptil 200Gb lagringsplass, opptil ubegrenset antall epostadresser og domenenavn
-                (.no, .com, .net og .org) koster fra <em class="font-semibold">kun kr 100,- pr mnd</em> (eks mva).
+                (gjelder TLD .no, .com, .net og .org) koster fra <em class="font-semibold">kun kr 100,- pr mnd</em> (eks mva).
                 I tillegg kommer en engangs oppstartkostnad p&aring; kr 1000,- (eks mva).</p>
             </div>
         </div>
 
-        <!-- Card -->
+        <!-- Prising Card -->
         <div class="overflow-hidden bg-white rounded shadow-md text-slate-500 shadow-slate-300">
             <!-- Image -->
             <picture>
