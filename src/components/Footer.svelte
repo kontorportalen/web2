@@ -71,7 +71,7 @@
         <div class="pt-2 col-span-3">
             <div
                 class="flex flex-col max-w-6xl px-3 pt-5 pb-5 m-auto text-sm text-gray-400 border-t border-gray-500 md:flex-row">
-                <span class="mt-2">&copy; Kontorportalen 2023. All Rights Reserved.</span>
+                <span class="mt-2">&copy; Kontorportalen 2024. All Rights Reserved.</span>
             </div>
         </div>
     </div>

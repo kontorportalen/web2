@@ -1,7 +1,6 @@
 <script lang="ts">
-    import { page } from "$app/stores";    
-
-    console.log($page);
+    import { page } from "$app/stores";
+	import { url } from "inspector";
 
     let showMenu = false;
 
@@ -29,8 +28,7 @@
         <nav aria-label="Hovedmeny" class="flex flex-col sm:flex-row h-[5.5rem] items-stretch justify-between font-medium text-slate-700">
             <!-- Logo -->
             <a id="Kontorportalen" 
-                aria-label="Kontorportalen logo" 
-                aria-current="page" 
+                aria-label="Kontorportalen logo"
                 class="flex items-center gap-2 py-3 text-lg whitespace-nowrap focus:outline-none lg:flex-1" 
                 href="/">
                     <img src="images/logo_kp_SvartHvit.png" alt="Kontorportalen logo" class="h-8 w-48 mr-2">
@@ -56,8 +54,8 @@
                 
                 {#each navitems as navitem}
                     <li role="none" class="flex flex-col sm:flex-row items-stretch">
-                        <a role="menuitem" 
-                            aria-current="page" 
+                        <a role="menuitem"
+                            aria-current={$page.url.pathname === navitem.href ? 'page' : undefined}
                             aria-haspopup="false" 
                             tabindex="0"
                             class="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-blue-500 focus:bg-blue-50 focus:outline-none focus-visible:outline-none lg:px-8"

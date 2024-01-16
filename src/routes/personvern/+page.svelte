@@ -6,7 +6,6 @@
     <h1 class="mx-auto max-w-7xl sm:px-6 lg:px-8 text-4xl font-extrabold mb-8 text-white">Personvernerklæring</h1>
 </section>
 
-<!-- E-læring -->
 <section class="py-20 z-5 bg-white" id="personvern" aria-label="Personvern">
     <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <p class="max-w-4xl my-4 text-lg md:text-xl text-gray-600 lg:mx-auto">
