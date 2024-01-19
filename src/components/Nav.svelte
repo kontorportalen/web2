@@ -38,7 +38,7 @@
                 id="mobile_menu_trigger"
                 class="relative self-center order-10 visible block w-10 h-10 opacity-100 lg:hidden" 
                 on:click={toggleMobileMenu}
-                aria-expanded="false" 
+                aria-expanded="{showMenu ? 'true' : 'false'}"
                 aria-label="Vis/skjul navigasjon">
                 <div class="absolute w-6 transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
                     <span aria-hidden="true" class="absolute block h-0.5 w-9/12 -translate-y-2 transform rounded-full bg-slate-900 transition-all duration-300"></span>
@@ -58,8 +58,8 @@
                             aria-current={$page.url.pathname === navitem.href ? 'page' : undefined}
                             aria-haspopup="false" 
                             tabindex="0"
+                            on:click={toggleMobileMenu}
                             class="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-blue-500 focus:bg-blue-50 focus:outline-none focus-visible:outline-none lg:px-8"
-                            class:active={$page.url.pathname === navitem.href}
                             href={navitem.href}> <span>{navitem.title}</span>
                         </a>
                     </li>

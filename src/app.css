@@ -4,7 +4,7 @@
 
 @layer components {
 
-    .active {
+    a[aria-current='page'] {
         @apply flex items-center gap-2 py-4 transition-colors duration-300 text-blue-500 hover:text-blue-700 focus:bg-blue-50 focus:outline-none focus-visible:outline-none lg:px-8
     }
 

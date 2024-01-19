@@ -1,6 +1,6 @@
 <!-- FOOTER -->
 <footer class="bg-gray-800 mt-6 sm:mt-10">
-    <div class="grid grid-cols-1 md:grid-cols-3 max-w-6xl gap-1 m-auto text-gray-800">
+    <div class="grid grid-cols-1 md:grid-cols-3 max-w-7xl gap-1 m-auto text-gray-800">
 
         <!-- Kolonne 1 -->
         <div class="p-5">
@@ -64,13 +64,13 @@
                 class="block my-3 text-sm font-medium text-gray-300 duration-700 hover:text-gray-100">
                 Twitter / X <span class="screen-reader-only">(åpnes i ny flik)</span>
             </a>
-            <a href="https://www.thegreenwebfoundation.org/"><img src="https://api.thegreenwebfoundation.org/greencheckimage/www.kontorportalen.no?nocache=true" alt="This website is hosted Green - checked by thegreenwebfoundation.org"></a>
+            <a href="https://www.thegreenwebfoundation.org/"><img src="https://api.thegreenwebfoundation.org/greencheckimage/www.kontorportalen.no?nocache=true" alt="Denne nettsiden er på en grønn server - sjekket av thegreenwebfoundation.org"></a>
         </div>
 
         <!-- Copyright -->
-        <div class="pt-2 col-span-3">
+        <div class="pt-2 md:col-span-3">
             <div
-                class="flex flex-col max-w-6xl px-3 pt-5 pb-5 m-auto text-sm text-gray-400 border-t border-gray-500 md:flex-row">
+                class="flex flex-col max-w-7xl px-3 pt-5 pb-5 m-auto text-sm text-gray-400 border-t border-gray-500 md:flex-row">
                 <span class="mt-2">&copy; Kontorportalen 2024. All Rights Reserved.</span>
             </div>
         </div>

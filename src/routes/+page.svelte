@@ -11,7 +11,7 @@
 
 <!-- SAMARBEIDSPARTNER -->
 <section class="py-20 z-5 bg-blue-100" id="samarbeidspartner" aria-label="Samarbeidspartner">
-    <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+    <div class="px-2 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div class="text-center">
             <h2 class="text-base font-semibold tracking-wide text-indigo-600 uppercase">
                 Hvorfor Kontorportalen?
