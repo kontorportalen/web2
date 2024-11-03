@@ -6,19 +6,14 @@
 		"dev": "vite dev",
 		"build": "vite build",
 		"preview": "vite preview",
-		"test": "npm run test:integration && npm run test:unit",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
 		"lint": "prettier --plugin-search-dir . --check . && eslint .",
-		"format": "prettier --plugin-search-dir . --write .",
-		"test:integration": "playwright test",
-		"test:unit": "vitest"
+		"format": "prettier --plugin-search-dir . --write ."
 	},
 	"devDependencies": {
-		"@playwright/test": "^1.28.1",
-		"@sveltejs/adapter-auto": "^2.0.0",
-		"@sveltejs/adapter-cloudflare": "^2.3.0",
-		"@sveltejs/kit": "^1.20.4",
+		"@sveltejs/adapter-cloudflare": "^0.0.1",
+		"@sveltejs/kit": "^2.7.4",
 		"@typescript-eslint/eslint-plugin": "^5.45.0",
 		"@typescript-eslint/parser": "^5.45.0",
 		"autoprefixer": "^10.4.14",
@@ -26,25 +21,22 @@
 		"eslint-config-prettier": "^8.5.0",
 		"eslint-plugin-svelte": "^2.30.0",
 		"postcss": "^8.4.24",
-		"prettier": "^2.8.0",
-		"prettier-plugin-svelte": "^2.10.1",
-		"svelte": "^4.0.0",
+		"prettier": "^3.3.0",
+		"prettier-plugin-svelte": "^3.2.7",
+		"svelte": "^5.0.0",
 		"svelte-check": "^3.4.3",
 		"tailwindcss": "^3.3.2",
 		"tslib": "^2.4.1",
 		"typescript": "^5.0.0",
-		"vite": "^5.0.12",
-		"vitest": "^0.32.2"
+		"vite": "^5.0.12"
 	},
 	"type": "module",
 	"dependencies": {
-		"@boxfish-studio/sveltekit-cookie-manager": "^1.0.3",
+		"@boxfish-studio/sveltekit-cookie-manager": "^1.0.2",
 		"@tailwindcss/forms": "^0.5.4",
 		"klaro": "^0.7.18",
 		"node": "^20.3.1",
-		"pnpm": "^8.6.12",
-		"svelte-carbonbadge": "^0.0.1",
-		"website-carbon-badges": "^1.1.3"
+		"pnpm": "^8.6.12"
 	},
 	"engines": {
 		"node": ">=19"
